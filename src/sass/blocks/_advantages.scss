@@ -1,0 +1,52 @@
+.advantages{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 470px;
+    padding: 70px 0 80px 0;
+    background-color: #f6f6f6;
+    &__subheader{
+        align-self: center;
+        flex-basis: 100%;
+        text-align: center;
+        color: #0d0d0d;
+        font-size: 30px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    &__items{
+    display: flex;
+    margin: 0 auto;
+    height: 250px;
+    width: 950px;
+    &__item{
+        display: flex;
+        justify-content: space-between;
+        height: 250px;
+        width: 250px;  
+        h3{
+            align-content: center; 
+            color: #0d0d0d;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        img{
+            margin-top: 25px;
+        }
+        p{
+            font-size: 14px;
+            font-weight: 400;
+            color: #0d0d0d;
+            text-align: center;
+        }
+    }        
+}
+}
+.promo__link-advantages{
+    color:red;
+    text-transform: uppercase;
+    text-decoration: underline;
+    &:hover{
+        color:red;
+    }
+}
